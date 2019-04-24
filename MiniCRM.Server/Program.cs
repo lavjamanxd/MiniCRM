@@ -6,7 +6,8 @@ namespace MiniCRM.Server
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var webservice = new WebService();
+            webservice.Start();
         }
     }
 }

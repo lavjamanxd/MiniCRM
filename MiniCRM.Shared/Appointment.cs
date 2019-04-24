@@ -1,5 +1,4 @@
 ﻿using System;
-using Json.Net;
 using Newtonsoft.Json;
 
 namespace MiniCRM.Shared

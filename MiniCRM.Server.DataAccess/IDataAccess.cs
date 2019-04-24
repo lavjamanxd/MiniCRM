@@ -7,7 +7,7 @@ namespace MiniCRM.Server.DataAccess
 {
     public interface IDataAccess
     {
-        Task<List<Appointment>> GetAppointments(int userId);
-        Task Save(Appointment appointment);
+        List<Appointment> GetAppointments(int userId);
+        void Save(Appointment appointment);
     }
 }

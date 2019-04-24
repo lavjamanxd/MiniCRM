@@ -18,7 +18,7 @@ namespace MiniCRM.Server.Endpoints
         private void RegisterCalls()
         {
             Get("getAppointments", Action);
-            Post("saveAppointment", Action);
+            //Post("saveAppointment", Action);
         }
 
         private Task<string> Action(dynamic o)

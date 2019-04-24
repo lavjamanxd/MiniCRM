@@ -175,10 +175,13 @@
       <Project>{0BE2BAB5-A4BF-4D78-962E-24880DE17DF1}</Project>
       <Name>MiniCRM.Core</Name>
     </ProjectReference>
+<<<<<<< HEAD
     <ProjectReference Include="..\MiniCRM.Shared\MiniCRM.Shared.csproj">
       <Project>{bb7f668d-93c5-4d3b-9cf5-186ad063bad7}</Project>
       <Name>MiniCRM.Shared</Name>
     </ProjectReference>
+=======
+>>>>>>> 7e645a8... wip login screen
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

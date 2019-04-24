@@ -12,7 +12,7 @@ namespace MiniCRM.Core.ServerAccess
 
         public MiniCrmBackend()
         {
-            _miniCrmApi = RestClient.For<IMiniCrmApi>("http://localhost:8080");
+            _miniCrmApi = RestClient.For<IMiniCrmApi>("http://127.0.0.1:8080");
         }
 
         public Task<IEnumerable<Appointment>> GetAppointments(int userId, DateTime from, DateTime to)

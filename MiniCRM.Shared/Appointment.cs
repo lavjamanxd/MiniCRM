@@ -10,12 +10,12 @@ namespace MiniCRM.Shared
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
 
-        public Appointment Deserialize(string json)
+        public static Appointment Deserialize(string json)
         {
             return JsonConvert.DeserializeObject<Appointment>(json);
         }
 
-        public string Serialize(Appointment appintment)
+        public static string Serialize(Appointment appintment)
         {
             return JsonConvert.SerializeObject(appintment);
         }

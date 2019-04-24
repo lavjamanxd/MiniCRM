@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MiniCRM.Server.DataAccess\MiniCRM.Server.DataAccess.csproj" />
     <ProjectReference Include="..\MiniCRM.Shared\MiniCRM.Shared.csproj" />
   </ItemGroup>
 
